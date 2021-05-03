@@ -1,0 +1,35 @@
+#%%
+
+val=int(input())
+
+
+def heartRateAtRest(val):
+    if val<40 or val>200:
+        print('potential error input')
+    elif 60 < val < 90:
+        print('normal')
+    elif 90 < val < 120:
+        print('elevated')
+    elif val >= 120:
+        print('abnormal high')
+
+
+heartRateAtRest(val)
+#%%
+
+
+val=int(input())
+
+
+def bodyTemperature(val):
+    if val<95 or val>105:
+        print('potential error input')
+    elif 97 < val < 99:
+        print('normal')
+    elif 100 < val < 103:
+        print('elevated')
+    elif val >= 103:
+        print('abnormal high')
+
+
+bodyTemperature(val) 
