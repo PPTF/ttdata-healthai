@@ -1,0 +1,15 @@
+##Glucose
+
+Gl=float(input())
+
+def Glucose(Gl):
+    if Gl<15 or Gl>300:
+        print('potential error input')
+    elif 70 <= Gl <= 100:
+        print('normal')
+    elif 100 <= Gl <=125:
+        print('elevated')
+    elif Gl > 125:
+        print('abnormal high')
+
+Glucose(Gl)
